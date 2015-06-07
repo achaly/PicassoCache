@@ -18,8 +18,6 @@ public class MainActivity extends AppCompatActivity {
             // load image from URL.
             PicassoCache.getPicasso()
                     .load("http://www.google.com/images/srpr/logo11w.png")
-                    .placeholder(android.R.drawable.ic_lock_silent_mode)
-                    .error(android.R.drawable.ic_lock_silent_mode_off)
                     .into(imageView);
         }
     }

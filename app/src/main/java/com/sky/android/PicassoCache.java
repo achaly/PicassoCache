@@ -10,7 +10,7 @@ import com.squareup.picasso.Cache;
 import com.squareup.picasso.Picasso;
 
 /**
- * Created by zhgn on 15-6-5.
+ * Created by Sky on 15-6-5.
  */
 public final class PicassoCache implements Cache {
 
